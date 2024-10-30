@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
 html, body {
     height: 100%;
     width: 100%;
@@ -31,7 +34,6 @@ body {
 .header {
     grid-row: 1 / 2;
     display: flex;
-    justify-content: left;
     align-items: center;
 }
 
@@ -131,6 +133,9 @@ body {
         width: 100%;
     }
 
+    p {
+        margin: 0;
+    }
 
     .left, .right1, .right2, .middle1, .middle2 {
         grid-column: 1 / -1;
